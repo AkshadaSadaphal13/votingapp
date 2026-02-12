@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+/* Glass background */
+.container {
+    width: 420px;
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.vote-btn {
+    width: 48%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.vote-btn.a {
+    background: #00c6ff;
+}
+
+.vote-btn.b {
+    background: #ff4e50;
+}
+
+.vote-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.result-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #00b09b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.result-btn:hover {
+    transform: scale(1.05);
+}
+
+.message {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.result-box {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.15);
+}
+
+.progress {
+    width: 100%;
+    height: 10px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.progress-bar {
+    height: 10px;
+    background: #00ffcc;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+
+.progress-bar.blue {
+    background: #4e9bff;
+}

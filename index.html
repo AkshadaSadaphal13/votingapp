@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decentralized Campus Voting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+    <h1>🗳 Blockchain Campus Voting</h1>
+    <p class="subtitle">Secure • Transparent • Decentralized</p>
+
+    <input type="text" id="wallet" placeholder="Enter Wallet ID">
+
+    <div class="button-group">
+        <button class="vote-btn a" onclick="vote('Candidate A')">
+            Vote Candidate A
+        </button>
+        <button class="vote-btn b" onclick="vote('Candidate B')">
+            Vote Candidate B
+        </button>
+    </div>
+
+    <div id="message" class="message"></div>
+
+    <button class="result-btn" onclick="showResults()">View Results</button>
+
+    <div class="result-box" id="results"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

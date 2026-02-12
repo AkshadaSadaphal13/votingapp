@@ -1,0 +1,10 @@
+{
+  "name": "blockchain-voting",
+  "version": "1.0.0",
+  "description": "Decentralized Blockchain Voting Prototype",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
